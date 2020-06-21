@@ -3,7 +3,11 @@
     "start": "parcel build src/index.ts --no-cache --no-autoinstall"
   },
   "devDependencies": {
+    "@parcel/validator-eslint": "^2.0.0-alpha.3",
     "@parcel/validator-typescript": "2.0.0-beta.1",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
     "parcel": "^2.0.0-beta.1",
     "typescript": "^3.9.5"
   }

@@ -1,7 +1,5 @@
-type Params = {
-  hello: string;
-};
+// ESLintエラーが発生するコード
+const foo: number = 0;
 
-export default function test(params: Params) {
-  return params.world;
-}
+// 型エラーが発生するコード
+const bar: string = foo;
