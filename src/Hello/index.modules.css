@@ -1,0 +1,9 @@
+.title {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #61A6AB;
+}
+
+.message {
+    line-height: 1.5;
+}
